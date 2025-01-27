@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 80px auto;
+  max-width: 1000px;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: 2px solid orangered;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+}
+
+.button:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.block_dscr {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.moviePoster {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+  min-width: 140px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dscr {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+}
+
+.link {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border: 2px solid orangered;
+  width: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+}
+
+.active {
+  color: white;
+  background-color: orangered;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  width: 98%;
+  max-width: 980px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.message {
+  text-align: center;
+  margin: 80px auto 10px;
+  max-width: 200px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

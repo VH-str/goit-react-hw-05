@@ -1,0 +1,21 @@
+.loadMoreBtn {
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  width: 100px;
+  text-align: center;
+  margin: 10px auto;
+  border: 2px solid orangered;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  display: block;
+}
+
+.loadMoreBtn:hover {
+  color: white;
+  background-color: orangered;
+}
